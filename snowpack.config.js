@@ -1,13 +1,13 @@
 module.exports = {
-    "mount": {
-        "public": "/",
-        "src": "/dist"
+    mount: {
+        public: "/",
+        src: "/dist"
     },
-    "devOptions": {
-        "port": 8000,
-        "open": "none"
+    devOptions: {
+        port: 8000,
+        open: "none"
     },
     buildOptions: {
-		clean: true
-	}
+        out: "_build"
+    }
 };

@@ -6,7 +6,9 @@
         "allowJs": true,
         "strict": true,
         "noImplicitAny": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "outDir": "_tscbuild"
     },
     "include": [
         "./src/**/*"
