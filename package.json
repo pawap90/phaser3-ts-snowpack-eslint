@@ -1,7 +1,7 @@
 {
   "name": "phaser3-ts-snowpack-eslint",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern Phaser 3 template with TypeScript, Snowpack & ESLint",
   "main": "src/main.ts",
   "scripts": {
     "start": "snowpack dev",
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "paulasantamaria",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.1",
