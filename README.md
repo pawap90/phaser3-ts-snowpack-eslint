@@ -23,7 +23,7 @@ git clone https://github.com/pawap90/phaser3-ts-snowpack-eslint.git
 npm install
 ```
 
-3. Start the local development server: Run the following command from the project's root folder:
+3. Start the local development server: 
 
 ```sh
 npm start
