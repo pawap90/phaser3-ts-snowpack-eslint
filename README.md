@@ -1,0 +1,106 @@
+
+![A modern Phaser 3 template: Phaser 3 + TypeScript + Snowpack + ESLint](https://i.imgur.com/Rq3JrQX.png)
+
+A modern Phaser 3 template: Develop your game using Typescript, keep your codebase clean with ESLint, and enjoy lightning-fast live updates thanks to Snowpack.
+
+# Dependencies
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+
+# Quick start
+
+1. Get this template: Press over the "Use this template" button. This will allow you to create a new repo with this project's structure on your Github account. Then you can clone it to your local machine.
+
+    Alternatively, you can clone this repo to your machine using the following command.
+
+```sh
+git clone https://github.com/pawap90/phaser3-ts-snowpack-eslint.git
+```
+
+2. Install dependencies: Run the following command from the project's root folder:
+
+```sh
+npm install
+```
+
+3. Start the local development server: Run the following command from the project's root folder:
+
+```sh
+npm start
+```
+
+Go to your browser and navigate to http://localhost:8000. You should see this beauty:
+
+![Acho the pup bouncing around](https://i.imgur.com/bYVcrSr.gif)
+
+If you wish to publish your project somewhere, create the production build using the following command:
+
+```sh
+npm run build
+```
+
+# Project structure
+
+```
+├───public/			            Public static files
+│   ├───assets/			        Sample assets
+│   │   ├───banner.png		    
+│   │   ├───acho.png		    
+│   │   └───ground.png		    
+│   └───index.html		        HTML file where our game will be loaded
+├───src/			            Game logic goes here
+│   ├───scenes/			        Game scenes
+│   │   ├───InitialScene.ts	    Initial sample scene
+│   │   └───PreloaderScene.ts	Scene preloader
+│   └───Main.ts			        Phaser game configuration
+├───.eslintignore		        Files that should be ignored by ESLint	
+├───.eslintrc.js		        ESLint configuration file
+├───.gitignore			        Files that should not be pushed to the repo
+├───package.json		        Project scripts, dependencies and metadata
+├───snowpack.config.js		    Snowpack configuration file
+└───tsconfig.json		        Typescript configuration file
+```
+
+> You can remove everything in the `public/assets` folder. But I recommend you first run the project once and make sure everything is installed and running properly.
+
+# TypeScript
+You can find TypeScript's configuration in `tsconfig.json`. It has a few rules to keep the codebase type-safe, like "strict" and "noImplicitAny". Feel free to change it as needed.
+
+# Snowpack
+Snowpack takes care of building the project for development and production. The configuration can be found in `snowpack.config.js`.
+
+To build your project for development and enjoy live updates, execute:
+
+```sh
+npm start
+```
+This will start the server in http://localhost:8000. You can change the port in `snowpack.config.js`: `devOptions.port`.
+
+To build your project for production:
+
+```
+npm run build
+```
+This command will execute a few tasks:
+1. The `prebuild` script will be executed automatically first:
+   1. It will compile the TypeScript code. If any errors are found, the build will be interrupted and the errors printed.
+   2. It will also execute ESLint in search for problems. This can also interrupt the build if any issues are found (we want our production builds to be safe).
+2. Finally, the `build` script will use Snowpack to generate the production package in the `_build` directory.
+
+# ESLint
+ESLint keeps your codebase clean and consistent while also helping you prevent errors. 
+
+This project comes with a few custom rules already set up in the `.eslint.js` file. Feel free to update them in your own project.
+
+Check for errors or styling issues using the following command:
+```sh
+npm run lint
+```
+This will print the list of problems found. 
+
+Some of the issues can be automatically fixed using:
+```sh
+npm run lint:fix
+```
+
+## Happy coding! 
