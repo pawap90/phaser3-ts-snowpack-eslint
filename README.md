@@ -3,6 +3,16 @@
 
 A modern Phaser 3 template: Develop your game using Typescript, keep your codebase clean with ESLint, and enjoy lightning-fast live updates thanks to Snowpack.
 
+- [Dependencies](#dependencies)
+- [Quick start](#quick-start)
+- [Project structure](#project-structure)
+- [TypeScript](#typescript)
+- [Snowpack](#snowpack)
+  - [Build optimization](#build-optimization)
+- [ESLint](#eslint)
+- [NPM Scripts](#npm-scripts)
+  - [Happy coding!](#happy-coding)
+
 # Dependencies
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
