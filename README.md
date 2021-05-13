@@ -87,6 +87,22 @@ This command will execute a few tasks:
    2. It will also execute ESLint in search for problems. This can also interrupt the build if any issues are found (we want our production builds to be safe).
 2. Finally, the `build` script will use Snowpack to generate the production package in the `_build` directory.
 
+## Build optimization
+I included the following optimization options in the `snowpack.config.js` file:
+
+```js
+{
+    optimize: {
+        bundle: true,
+        minify: true,
+        sourcemap: false
+    }
+}
+```
+These will make your production build lighter, which is great because it will load faster on your site once you publish your game. However, Snowpack [warns us on their site](https://www.snowpack.dev/guides/optimize-and-bundle) about these built-in optimizations. TLDR: They are powered by a tool called `esbuild` that is new and not yet production-ready. 
+
+That being said, I've done a few tests, published a few sample games using the optimizations described above, and I haven't encountered any issues yet. If you have any problems with your production build, you can remove the whole `optimize` object from `snowpack.config.js` and see if that solves it.
+
 # ESLint
 ESLint keeps your codebase clean and consistent while also helping you prevent errors. 
 
@@ -102,5 +118,13 @@ Some of the issues can be automatically fixed using:
 ```sh
 npm run lint:fix
 ```
+
+# NPM Scripts
+A brief description of the scripts you'll find in the `package.json`:
+- **start**: Starts the local development server. Use it to test your project during development.
+- **prebuild**: Compiles the project and runs the linter. This script will be executed before `build`, and its goal is to find any errors before the production build is created.
+- **build**: Generates the production build in a `_build` folder located in the project's root.
+- **lint**: Runs the linter and prints any issues found
+- **lint:fix**: Runs the linter and executes automatic fixes. It'll also print any issues that couldn't be solved.
 
 ## Happy coding! 
