@@ -23,7 +23,7 @@ git clone https://github.com/pawap90/phaser3-ts-snowpack-eslint.git
 npm install
 ```
 
-3. Start the local development server: Run the following command from the project's root folder:
+3. Start the local development server: 
 
 ```sh
 npm start
@@ -42,23 +42,23 @@ npm run build
 # Project structure
 
 ```
-├───public/			            Public static files
-│   ├───assets/			        Sample assets
-│   │   ├───banner.png		    
-│   │   ├───acho.png		    
-│   │   └───ground.png		    
-│   └───index.html		        HTML file where our game will be loaded
-├───src/			            Game logic goes here
-│   ├───scenes/			        Game scenes
-│   │   ├───InitialScene.ts	    Initial sample scene
-│   │   └───PreloaderScene.ts	Scene preloader
-│   └───Main.ts			        Phaser game configuration
-├───.eslintignore		        Files that should be ignored by ESLint	
-├───.eslintrc.js		        ESLint configuration file
-├───.gitignore			        Files that should not be pushed to the repo
-├───package.json		        Project scripts, dependencies and metadata
-├───snowpack.config.js		    Snowpack configuration file
-└───tsconfig.json		        Typescript configuration file
+├───public/                         Public static files
+│   ├───assets/                     Sample assets
+│   │   ├───banner.png
+│   │   ├───acho.png
+│   │   └───ground.png
+│   └───index.html                  HTML file where our game will be loaded
+├───src/                            Game logic goes here
+│   ├───scenes/                     Game scenes
+│   │   ├───InitialScene.ts         Initial sample scene
+│   │   └───PreloaderScene.ts       Scene preloader
+│   └───Main.ts                     Phaser game configuration
+├───.eslintignore                   Files that should be ignored by ESLint	
+├───.eslintrc.js                    ESLint configuration file
+├───.gitignore                      Files that should not be pushed to the repo
+├───package.json                    Project scripts, dependencies and metadata
+├───snowpack.config.js              Snowpack configuration file
+└───tsconfig.json                   Typescript configuration file
 ```
 
 > You can remove everything in the `public/assets` folder. But I recommend you first run the project once and make sure everything is installed and running properly.
