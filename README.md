@@ -14,7 +14,6 @@ A modern Phaser 3 template: Develop your game using Typescript, keep your codeba
   - [Build optimization](#build-optimization)
 - [ESLint](#eslint)
 - [NPM Scripts](#npm-scripts)
-  - [Happy coding!](#happy-coding)
 
 # Dependencies
 - [Node.js](https://nodejs.org/en/)
