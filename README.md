@@ -14,6 +14,8 @@ A modern Phaser 3 template: Develop your game using Typescript, keep your codeba
   - [Build optimization](#build-optimization)
 - [ESLint](#eslint)
 - [NPM Scripts](#npm-scripts)
+  - [Happy coding!](#happy-coding)
+
 
 # Dependencies
 - [Node.js](https://nodejs.org/en/)
@@ -76,7 +78,7 @@ npm run build
 > You can remove everything in the `public/assets` folder. But I recommend you first run the project once and make sure everything is installed and running properly.
 
 # TypeScript
-You can find TypeScript's configuration in `tsconfig.json`. It has a few rules to keep the codebase type-safe, like "strict" and "noImplicitAny". Feel free to change it as needed.
+You can find TypeScript's configuration in `tsconfig.json`. To keep the codebase safe, you'll notice the flag `strict` is set to true. This [enables all strict type checking options](https://www.typescriptlang.org/tsconfig/#strict), like `noImplicitAny` and `alwaysStrict`. Feel free to disable `strict` and add your preferred configurations.
 
 # Snowpack
 Snowpack takes care of building the project for development and production. The configuration can be found in `snowpack.config.js`.
@@ -139,4 +141,6 @@ A brief description of the scripts you'll find in the `package.json`:
 - **lint**: Runs the linter and prints any issues found
 - **lint:fix**: Runs the linter and executes automatic fixes. It'll also print any issues that couldn't be solved.
 
+
+<!-- no toc -->
 ## Happy coding! 

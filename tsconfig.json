@@ -6,9 +6,7 @@
         "noEmit": true,
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "strict": true,
-        "noImplicitAny": true,
-        "alwaysStrict": true
+        "strict": true
     },
     "include": [
         "./src/**/*"
