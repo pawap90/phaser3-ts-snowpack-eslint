@@ -2,7 +2,6 @@
     "compilerOptions": {
         "target": "ESNext",
         "moduleResolution": "node",
-        "baseUrl": "./src",
         "noEmit": true,
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
