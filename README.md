@@ -143,7 +143,10 @@ A brief description of the scripts you'll find in the `package.json`:
 - **lint:fix**: Runs the linter and executes automatic fixes. It'll also print any issues that couldn't be solved.
 
 # GitHub Pages
-This template includes a simple CI/CD workflow that allows you to easily deploy your game to GitHub Pages. To use it in your own repo, follow these steps:
+This template includes a simple CI/CD workflow that allows you to easily deploy your game to GitHub Pages. 
+[Click here](https://pawap90.github.io/phaser3-ts-snowpack-eslint) to see the latest deployed version of this template.
+
+To use it in your own repo, follow these steps:
 1. Go to Settings
 2. Click over "Pages" button on the left
 3. In the "Source" select the "gh-pages" branch
