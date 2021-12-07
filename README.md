@@ -14,6 +14,7 @@ A modern Phaser 3 template: Develop your game using Typescript, keep your codeba
   - [Build optimization](#build-optimization)
 - [ESLint](#eslint)
 - [NPM Scripts](#npm-scripts)
+- [GitHub Pages](#github-pages)
   - [Happy coding!](#happy-coding)
 
 
@@ -141,6 +142,12 @@ A brief description of the scripts you'll find in the `package.json`:
 - **lint**: Runs the linter and prints any issues found
 - **lint:fix**: Runs the linter and executes automatic fixes. It'll also print any issues that couldn't be solved.
 
+# GitHub Pages
+This template includes a simple CI/CD workflow that allows you to easily deploy your game to GitHub Pages. To use it in your own repo, follow these steps:
+1. Go to Settings
+2. Click over "Pages" button on the left
+3. In the "Source" select the "gh-pages" branch
+   - If the branch doesn't exist yet, please commit something to trigger the workflow (or trigger it manually) so the branch is automatically generated for you and the follow these little guide again.
 
 <!-- no toc -->
 ## Happy coding! 
