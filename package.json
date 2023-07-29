@@ -1,6 +1,6 @@
 {
   "name": "phaser3-ts-snowpack-eslint",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A modern Phaser 3 template with TypeScript, Snowpack & ESLint",
   "main": "src/main.ts",
   "scripts": {
