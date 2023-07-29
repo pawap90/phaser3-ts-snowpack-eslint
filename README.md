@@ -1,5 +1,7 @@
+[![Build](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/build.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/build.yml)
+[![GitHub Pages Deploy](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/deploy.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/deploy.yml) 
 
-![A modern Phaser 3 template: Phaser 3 + TypeScript + Snowpack + ESLint](https://i.imgur.com/Rq3JrQX.png)
+![A modern Phaser 3 template: Phaser 3 + TypeScript + Snowpack + ESLint](https://i.imgur.com/Rq3JrQX.png) 
 
 A modern Phaser 3 template: Develop your game using Typescript, keep your codebase clean with ESLint, and enjoy lightning-fast live updates thanks to Snowpack.
 
