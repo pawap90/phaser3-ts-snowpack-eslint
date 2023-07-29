@@ -1,7 +1,7 @@
-import Phaser from 'phaser';
+import * as Phaser from 'phaser';
 
-import PreloaderScene from './scenes/PreloaderScene';
-import InitialScene from './scenes/InitialScene';
+import { PreloaderScene } from './scenes/PreloaderScene';
+import { InitialScene } from './scenes/InitialScene';
 
 const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
