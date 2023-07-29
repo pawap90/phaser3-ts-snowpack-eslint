@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES2020",
+        "moduleResolution": "Node",
         "noEmit": true,
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
