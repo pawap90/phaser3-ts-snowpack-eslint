@@ -1,4 +1,4 @@
-name: PR CI
+name: Build
 on:
   pull_request:
     branches: main
