@@ -1,7 +1,7 @@
-import Phaser from 'phaser';
+import { Scene, Types } from 'phaser';
 
-export default class InitialScene extends Phaser.Scene {
-    private achoThePup!: Phaser.Types.Physics.Arcade.ImageWithDynamicBody;
+export class InitialScene extends Scene {
+    private achoThePup!: Types.Physics.Arcade.ImageWithDynamicBody;
 
     constructor() {
         super('initial');

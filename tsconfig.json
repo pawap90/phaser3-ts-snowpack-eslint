@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
         "target": "ESNext",
-        "moduleResolution": "node",
+        "moduleResolution": "Node",
         "noEmit": true,
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
-        "strict": true
+        "strict": true,
+        "skipLibCheck": true
     },
     "include": [
         "./src/**/*"
