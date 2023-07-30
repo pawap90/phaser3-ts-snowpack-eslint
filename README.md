@@ -1,6 +1,12 @@
 [![Build](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/build.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/build.yml)
 [![GitHub Pages Deploy](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/deploy.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/deploy.yml) 
 
+[![Phaser Version 3.60.0](https://img.shields.io/badge/Phaser%20-%20v3.60.0%20-%20%23404951?labelColor=%2399388c&style=flat-square)](./package.json#L24)
+[![TypeScript Version 5.1.6](https://img.shields.io/badge/TypeScript%20-%20v5.1.6%20-%20%23404951?labelColor=%233178c6&style=flat-square)](./package.json#L21)
+[![Snowpack Version 3.8.8](https://img.shields.io/badge/Snowpack%20-%20v3.8.8%20-%20%23404951?labelColor=%232e5e82&style=flat-square)](./package.json#L20)
+[![ESLint Version 8.46.0](https://img.shields.io/badge/ESLint%20-%20v8.46.0%20-%20%23404951?labelColor=%234930bd&style=flat-square)](./package.json#L19)
+
+
 ![A modern Phaser 3 template: Phaser 3 + TypeScript + Snowpack + ESLint](https://i.imgur.com/Rq3JrQX.png) 
 
 A modern Phaser 3 template: Develop your game using Typescript, keep your codebase clean with ESLint, and enjoy lightning-fast live updates thanks to Snowpack.
