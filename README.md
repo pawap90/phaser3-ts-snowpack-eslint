@@ -1,3 +1,10 @@
+> [!WARNING]
+> **This repository has been archived.**
+>
+> If you're looking for a Phaser Template, please use this one: [github.com/pawap90/phaser3-ts-vite-eslint](https://github.com/pawap90/phaser3-ts-vite-eslint)
+
+---
+
 [![Build](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/build.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/build.yml)
 [![GitHub Pages Deploy](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/deploy.yml/badge.svg)](https://github.com/pawap90/phaser3-ts-snowpack-eslint/actions/workflows/deploy.yml) 
 
